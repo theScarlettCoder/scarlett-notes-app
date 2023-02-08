@@ -29,11 +29,11 @@ In this app, when the homepage loads up, you see a bunch of notes written by you
 
 The body holds the notes and displays them in colors based on the priority selected at the time of creation. The colors are as follows:
 
-> Nero (#1C1C1C) => The primary color of the website Header and Footer (high priority notes on the homepage) 
-> Shade of orange #d58128 => The color for low priority notes
-> Sunset orange #ff5251 => The color for single page high priority notes
-> Dodger Blue #006cff => The color for medium priority notes
-> Ash => The color for grayed out notes, to show they have been completed
+- Nero (#1C1C1C) => The primary color of the website Header and Footer (high priority notes on the homepage) 
+- Shade of orange #d58128 => The color for low priority notes
+- Sunset orange #ff5251 => The color for single page high priority notes
+- Dodger Blue #006cff => The color for medium priority notes
+- Ash => The color for grayed out notes, to show they have been completed
 
 Then there's the footer, this part shows the year I started the project and my chosen alias ```Scarlett```.
 
@@ -77,13 +77,13 @@ You click and go into any of the notes to see details like:
 
 1. I ran into a-lot of errors while trying to get the backend to work
 
-    > I encountered an error relating to cors and I solved it by installing
-    > I encountered a cors error and had to install cors
-    > I encountered a proxy issue where the api was routing from the localhost of my react app instead of my api, I solved it by creating a config folder         and an api file. Where i used axios instance to fix it
+    * I encountered an error relating to cors and I solved it by installing
+    * I encountered a cors error and had to install cors
+    * I encountered a proxy issue where the api was routing from the localhost of my react app instead of my api, I solved it by creating a config folder         and an api file. Where i used axios instance to fix it
 
 2. I had a-lot of issues implementing some functions.
 
-    > I had issues managing state, so I had to use react context to manage certain state of the app and manage synchronization of the react app and             database.
+    * I had issues managing state, so I had to use react context to manage certain state of the app and manage synchronization of the react app and             database.
 
 
 ## Future Implementations
@@ -95,21 +95,23 @@ You click and go into any of the notes to see details like:
 
 ## How to Install And Run the Project
 
-- cd into the folder you want to clone the project to.
+* cd into the folder you want to clone the project to.
     ```$ mkdir scarlett-notes-clone```
     ```cd scarlett-notes-clone```
 
-- git clone the project into your folder by running the below with the link from the project about
+* git clone the project into your folder by running the below with the link from the project about
     ```git clone https://git:link.git}```  
 
-- cd into the client and api respectively and install the dependencies by running
+* cd into the client and api respectively and install the dependencies by running
     ```npm install``` or ```yarn install ``` respectively.
 
-- start the applications and make changes  in areas you deem neccessary.
+* start the applications and make changes  in areas you deem neccessary.
 
 
 Thank you for your time.
 Do reach out, I would love to read from you.
+Please it would be nice to leave a star and follow me, it would be a very nice motivation.
+
 
 > No man is an Island, I love to connect and learn everyday.
 
