@@ -98,6 +98,9 @@ You click and go into any of the notes to see details like:
 * cd into the folder you want to clone the project to.
 
   >  ```$ mkdir scarlett-notes-clone```
+  
+  Then
+   
   >  ```cd scarlett-notes-clone```
 
 * git clone the project into your folder by running the below with the link from the project about
