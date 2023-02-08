@@ -96,14 +96,22 @@ You click and go into any of the notes to see details like:
 ## How to Install And Run the Project
 
 * cd into the folder you want to clone the project to.
-    ```$ mkdir scarlett-notes-clone```
-    ```cd scarlett-notes-clone```
+
+  >  ```$ mkdir scarlett-notes-clone```
+  >  ```cd scarlett-notes-clone```
 
 * git clone the project into your folder by running the below with the link from the project about
-    ```git clone https://git:link.git}```  
+
+   > ```git clone https://github.com/theScarlettCoder/scarlett-notes-app.git```  
 
 * cd into the client and api respectively and install the dependencies by running
-    ```npm install``` or ```yarn install ``` respectively.
+
+   > ```npm install``` 
+   or 
+   
+   >```yarn install ```
+   
+   respectively.
 
 * start the applications and make changes  in areas you deem neccessary.
 
