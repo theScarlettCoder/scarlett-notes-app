@@ -1,0 +1,80 @@
+@import '../utilities/_variables';
+
+
+
+
+
+.content {
+  position: relative;
+
+  .my_masonry_grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin: 2rem auto; /* gutter size offset */
+    width: 90%;
+    min-height: calc(100vh - 30vh);
+
+          @media (max-width: 600px) {
+              padding-left: -15px; /* gutter size offset */
+
+    }
+
+          .my_masonry_grid_column {
+              padding-left: 10px; /* gutter size */
+              background-clip: padding-box;
+
+
+
+                  @media (max-width: 800px) {
+                    padding-left: 5px;
+                  }
+                 
+              
+                  @media (max-width: 600px) {
+                      margin-left: 0;
+                    
+                  }
+
+
+
+                    .my-masonry-grid_column > div {
+                      margin-bottom: 15px; /* space between items */
+                    }
+                  
+             
+
+          }
+  
+}
+
+      .addTodoButtonContainer {
+            position: fixed;
+            top: 70%;
+            right: 5%;
+            z-index: 90;
+            height: 5rem;
+            width: 5rem;
+            cursor: pointer;
+
+
+              .addTodoButton {
+                position: relative;
+                background: transparent;
+                border: none;
+                border-radius: 50%;            
+                color: $red;
+                height: 5rem;
+                width: 5rem;
+                object-fit: cover;
+                transition: all 200ms ease-in;
+
+                    &:hover {
+                      color: $primary-color;
+                    }
+              }
+
+      }
+
+}
+  
